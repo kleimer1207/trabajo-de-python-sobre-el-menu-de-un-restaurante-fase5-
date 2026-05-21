@@ -1,0 +1,6 @@
+cantidad_de_payasos = int(input("Ingrese la cantidad de payasos que desea comprar: "))
+cantidad_de_muñecas = int(input("Ingrese la cantidad de muñecas que desea comprar: "))
+peso_de_payasos = int (122)
+peso_de_muñecas = int (75)
+peso_total = (cantidad_de_payasos * peso_de_payasos)+(cantidad_de_muñecas * peso_de_muñecas)
+print(f"el peso total de la compra de sus juguetes es de: {peso_total} gramos, gracias por su compra")  
